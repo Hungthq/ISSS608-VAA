@@ -4,13 +4,13 @@
     "href": "index.html",
     "title": "ISSS608-VAA",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "Welcome to ISSS608 Visual Analytics and Applications. In this website, you will find my coursework prepared for this course."
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "About this site\n\n1 + 1\n\n[1] 2\n\n\n\nRPython\n\n\nfizz_buzz &lt;- function(fbnums = 1:50) {\n  output &lt;- dplyr::case_when(\n    fbnums %% 15 == 0 ~ \"FizzBuzz\",\n    fbnums %% 3 == 0 ~ \"Fizz\",\n    fbnums %% 5 == 0 ~ \"Buzz\",\n    TRUE ~ as.character(fbnums)\n  )\n  print(output)\n}\n\n\ndef fizz_buzz(num):\n  if num % 15 == 0:\n    print(\"FizzBuzz\")\n  elif num % 5 == 0:\n    print(\"Buzz\")\n  elif num % 3 == 0:\n    print(\"Fizz\")\n  else:\n    print(num)"
   }
 ]
